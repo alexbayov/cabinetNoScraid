@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    position: center;
+    width: 100%;
+    height: 100px;
+    background: rgba(183, 233, 255, 0.22);
+    backdrop-filter: blur(21px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+.menu {
+    display:inline;
+    float:left;
+    /*position: absolute;*/
+    width: 33%;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: red;
+    /*background: #F5F5F5;*/
+}
+
+.content {
+    border: 1px solid red;
+    /*position: absolute;*/
+    width: 100%;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: blue;
+}
+
+.account-login {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 70px;
+    background: #000;
+}
+
+.photo {
+
+}
+
+span {
+    font-family: PF Bague Sans Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #575757;
+}

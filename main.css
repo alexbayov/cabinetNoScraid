@@ -168,3 +168,16 @@ caption {
 table tr:nth-child(2) {
     color: #696969;
 }
+
+.button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    color: #ffffff;
+    background: #6F00B2;
+    box-shadow: 5px 5px rgba(122, 122, 122, 0.2);
+    cursor: pointer;
+}
